@@ -209,7 +209,7 @@ int main()
 				catch (const char* ex) {
 					cout << ex << endl;
 				}
-			}
+			} 
 			cout << "\n------------------------------------------------" << endl;
 			cout << "      CALCULATION RESULTS (n = " << n << "):      " << endl;
 			cout << "================================================" << endl;
@@ -221,9 +221,9 @@ int main()
 			_getch();
 			break;
 		}
-		case 3:		//Case 3
+		case 3:		// Case 3 
 			cout << "\nExiting program...\n\n";
-			cout << "Goodbye!\n";
+			cout << "Goodbye!\n"; 
 			return 0;
 		}
 	}
