@@ -85,6 +85,8 @@ void calcFunc2(int n, double a, double b, double step) {
 }
 
 
+#ifndef UNIT_TESTING
+
 int main()
 {
 	int n, m = 0;
@@ -226,3 +228,4 @@ int main()
 		}
 	}
 }
+#endif
