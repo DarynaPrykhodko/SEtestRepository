@@ -73,7 +73,7 @@ double calcFunc1(int n, double x) {
 }
 
 void calcFunc2(int n, double a, double b, double step) {
-	//Outputting results
+
 	int k = 1;
 	for (double x = a; x <= b; x += step) {
 		double y = calcFunc1(n, x);
@@ -124,15 +124,15 @@ int main()
 			cout << ex << endl;
 			_getch();
 			continue;
-		}
+		}	
 		switch (m) {
 
 		case 1:											//CASE 1 ------------
 			system("cls");
 			cout << "================================" << endl;
-			cout << "   Calculating for singular X   " << endl;//Getting n and x from user's input
+			cout << "   Calculating for singular X   " << endl;
 			cout << "================================\n" << endl;
-
+												//Getting n and x from user's input
 			while (true) {
 				try {
 					n = checkValidInt("Input n > 1, n = ");
@@ -220,8 +220,8 @@ int main()
 			cout << "Press any key to return to the menu: ";
 			_getch();
 			break;
-		}
-		case 3:		// Case 3 
+		}														// Case 3 
+		case 3:								
 			cout << "\nExiting program...\n\n";
 			cout << "Goodbye!\n"; 
 			return 0;

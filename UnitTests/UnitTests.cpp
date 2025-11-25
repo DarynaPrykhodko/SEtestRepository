@@ -75,7 +75,7 @@ namespace UnitTests
 				Assert::IsTrue(true);
 			}
 		}
-
+						//ans 5
 	public:
 		TEST_METHOD(calcFunc1_get3andMinus4_5returned) {
 			int n = 3;
@@ -85,12 +85,12 @@ namespace UnitTests
 			int actual = calcFunc1(n, x);
 			Assert::AreEqual(expected, actual);
 		}
-
+						//ans 34
 	public:
 		TEST_METHOD(calcFunc1_get6and23_125returned) {
 			int n = 2;
 			int x = 23;
-			int expected = 34;
+			int expected = 304;
 
 			int actual = calcFunc1(n, x);
 			Assert::AreEqual(expected, actual);
